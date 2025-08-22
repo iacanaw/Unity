@@ -1,0 +1,94 @@
+# =========================
+# C / Toolchain artifacts
+# =========================
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+*.exe
+*.out
+*.map
+*.exp
+*.pdb
+*.idb
+*.ilk
+*.d        # dep files
+
+# macOS & Windows debug bundles
+*.dSYM/
+*.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+
+# =========================
+# Unity / Ceedling outputs
+# =========================
+/build/                 # Ceedling default build dir
+/.ceedling*             # Ceedling metadata (if present)
+
+# If you generate runners outside build/ (some setups do):
+/test/test_runners/
+/test/*_Runner.c
+/test/*_Runner.h
+
+# Common ad-hoc binaries
+/all_tests
+/all_tests.*
+/*.out
+
+# =========================
+# Coverage & analysis
+# =========================
+# GCC/gcov
+*.gcno
+*.gcda
+*.gcov
+
+# LLVM/clang coverage
+*.profraw
+*.profdata
+
+# lcov/gcovr outputs & HTML reports
+coverage/
+coverage-*/
+coverage.info
+*.lcov
+coverage.xml
+report/
+reports/
+html/
+html-report/
+test-results/
+test/result/
+test/results/
+
+# =========================
+# Logs & temporary files
+# =========================
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# =========================
+# Editor / IDE junk
+# =========================
+.vscode/
+.idea/
+*.code-workspace
+
+# =========================
+# Helper scripts (Python, etc.)
+# =========================
+__pycache__/
+*.pyc
+.mypy_cache/
+.pytest_cache/
